@@ -1,3 +1,20 @@
 .Layout {
-	
+    min-height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 10%, 85%, 5%;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.Layout > header, .Layout > footer {
+    grid-column: span 6;
+}
+
+.Layout > main {
+    grid-column: span 6;
+    overflow: auto;
+}
+
+.Layout > footer {
+    margin-top: auto;
 }
