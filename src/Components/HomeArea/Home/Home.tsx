@@ -1,9 +1,10 @@
 import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
 import "./Home.css";
 
 function Home(): JSX.Element {
     return (
-        <div dir="rtl" className="Home">
+        <div className="Home">
             <h2>כותרת משנה ורשימת שירותים שאתה מספק</h2>
             <br />
             <li>שירות גנרי 1</li>
@@ -13,6 +14,8 @@ function Home(): JSX.Element {
             <li>שירות גנרי 5</li>
 
             <Contact />
+            <br />
+            <Projects />
         </div>
     );
 }
