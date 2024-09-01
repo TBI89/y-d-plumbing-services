@@ -1,7 +1,21 @@
 .Projects {
-	
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.carousel-item {
-    width: 50px;
+.carousel-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;    
+    object-fit: cover;    
+    clip-path: circle(50%); 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.carousel-inner {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;  
 }
