@@ -1,12 +1,12 @@
-import carousel1 from '../../../Assets/Images/carousel-1.jpg';
-import carousel2 from '../../../Assets/Images/carousel-2.jpg';
-import carousel3 from '../../../Assets/Images/carousel-3.jpg';
-import carousel4 from '../../../Assets/Images/carousel-4.jpg';
-import carousel5 from '../../../Assets/Images/carousel-5.jpg';
-import carousel6 from '../../../Assets/Images/carousel-6.jpg';
-import carousel7 from '../../../Assets/Images/carousel-7.jpg';
-import carousel8 from '../../../Assets/Images/carousel-8.jpg';
-import carousel9 from '../../../Assets/Images/carousel-9.jpg';
+import carousel1 from '../../../Assets/Images/carousel-1.png';
+import carousel2 from '../../../Assets/Images/carousel-2.png';
+import carousel3 from '../../../Assets/Images/carousel-3.png';
+import carousel4 from '../../../Assets/Images/carousel-4.png';
+import carousel5 from '../../../Assets/Images/carousel-5.png';
+import carousel6 from '../../../Assets/Images/carousel-6.png';
+import carousel7 from '../../../Assets/Images/carousel-7.png';
+import carousel8 from '../../../Assets/Images/carousel-8.png';
+import carousel9 from '../../../Assets/Images/carousel-9.png';
 import "./Projects.css";
 
 function Projects(): JSX.Element {
