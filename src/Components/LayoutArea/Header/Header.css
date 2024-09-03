@@ -1,3 +1,9 @@
-.Header {
-	
+@font-face {
+    font-family: 'header-font';
+    src: url(../../../Assets/Fonts/RubikDistressed-Regular.ttf);
+}
+
+.Header>h1 {
+    font-family: 'header-font';
+    font-size: 70px;
 }

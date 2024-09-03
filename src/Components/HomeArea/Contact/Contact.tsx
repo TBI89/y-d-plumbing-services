@@ -1,4 +1,5 @@
 import "./Contact.css";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Contact(): JSX.Element {
 
@@ -6,9 +7,11 @@ function Contact(): JSX.Element {
     const message = 'שלום, אשמח לקבל פרטים נוספים בנוגע ל...'
     return (
         <div className="Contact">
-            <p>ליצירת קשר</p>
             <a href={`https://wa.me/${phoneNumber}?text=${message}`}
-                target="_blank" rel="noreferrer">054-9467444</a>
+                target="_blank" rel="noreferrer">
+                <WhatsAppIcon style={{ fontSize: '60px' }} />
+            </a>
+
         </div>
     );
 }

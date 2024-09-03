@@ -1,4 +1,16 @@
-.Home > .ServiceListContainer {
+@font-face {
+    font-family: 'service-list-font';
+    src: url(../../../Assets/Fonts/SecularOne-Regular.ttf);
+}
+
+.Home>h2 {
+    font-family: 'service-list-font';
+    font-size: 35px;
+}
+
+.Home>.ServiceListContainer {
     display: inline-block;
     text-align: right;
+    font-family: 'service-list-font';
+    font-size: 25px;
 }

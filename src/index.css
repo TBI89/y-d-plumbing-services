@@ -9,8 +9,9 @@ body,
     url('./Assets/Images/background-image.jpg');
     background-size: cover;
     background-position: center;
+    overflow-y: hidden;
 }
 
 a {
-    color: blue;
+    color: #25D366;
 }
