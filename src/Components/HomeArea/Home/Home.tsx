@@ -13,11 +13,12 @@ function Home(): JSX.Element {
                 <li>החלפת מכסי ביוב</li>
                 <li>פירוק בטון ושורשים בצנרת</li>
                 <li>צילומי צנרת</li>
+                <li>פתיחת סתימות בלחץ מים</li>
+                <li>שטיפת קווים</li>
             </div>
-            <br /><br />
+            <br />
 
             <Contact />
-            <br />
             <Projects />
         </div>
     );

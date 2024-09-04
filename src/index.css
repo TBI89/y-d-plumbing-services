@@ -9,7 +9,7 @@ body,
     url('./Assets/Images/background-image.jpg');
     background-size: cover;
     background-position: center;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 a {

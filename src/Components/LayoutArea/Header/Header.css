@@ -7,3 +7,10 @@
     font-family: 'header-font';
     font-size: 70px;
 }
+
+.Header>img {
+    width: 300px;
+    /* Attempt to remove background color */
+    /* mix-blend-mode: screen; 
+    filter: brightness(1) contrast(50); */
+}

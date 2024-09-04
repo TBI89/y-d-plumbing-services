@@ -1,9 +1,11 @@
 import "./Header.css";
+import logo from '../../../Assets/Images/Untitled-design.png';
 
 function Header(): JSX.Element {
     return (
         <div className="Header">
-			<h1>ירון שירותי ביוב</h1>
+            <img src={logo}/>
+			<h1>ירון דוד שירותי ביוב</h1>
         </div>
     );
 }

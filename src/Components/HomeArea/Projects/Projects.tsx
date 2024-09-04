@@ -17,7 +17,12 @@ function Projects(): JSX.Element {
 
     return (
         <div className="Projects">
-            <div id="carouselExampleIndicators" className="carousel slide">
+            <div 
+                id="carouselExampleIndicators" 
+                className="carousel slide"
+                data-bs-ride="carousel"  // Enable automatic cycling
+                data-bs-interval="3000"  // Slide every 3 seconds (3000ms)
+            >
                 <div className="carousel-indicators">
                     {images.map((_, index) => (
                         <button
