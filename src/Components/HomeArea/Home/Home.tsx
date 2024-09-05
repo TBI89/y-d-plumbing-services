@@ -1,5 +1,6 @@
 import Contact from "../Contact/Contact";
 import Projects from "../Projects/Projects";
+import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 import "./Home.css";
 
 function Home(): JSX.Element {
@@ -9,12 +10,17 @@ function Home(): JSX.Element {
             <br />
 
             <div className="ServiceListContainer">
-                <li>חידוש ואיטום בריכות ביוב</li>
-                <li>החלפת מכסי ביוב</li>
-                <li>פירוק בטון ושורשים בצנרת</li>
-                <li>צילומי צנרת</li>
-                <li>פתיחת סתימות בלחץ מים</li>
-                <li>שטיפת קווים</li>
+                <span><DoneOutlineIcon /> חידוש ואיטום בריכות ביוב</span>
+                <br />
+                <span><DoneOutlineIcon /> החלפת מכסי ביוב</span>
+                <br />
+                <span><DoneOutlineIcon /> פירוק בטון ושורשים בצנרת</span>
+                <br />
+                <span><DoneOutlineIcon /> צילומי צנרת</span>
+                <br />
+                <span><DoneOutlineIcon /> פתיחת סתימות בלחץ מים</span>
+                <br />
+                <span><DoneOutlineIcon /> שטיפת קווים</span>
             </div>
             <br />
 
