@@ -1,5 +1,11 @@
-.Contact>a {
+.Contact>.whatsAppContainer {
     position: fixed;
     bottom: 2%;
     left: 1%;
+}
+
+.Contact>.phoneContainer {
+    position: fixed;
+    bottom: 2%;
+    left: 93%;
 }

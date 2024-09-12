@@ -1,5 +1,5 @@
 import "./Header.css";
-import logo from '../../../Assets/Images/y-d-logo.jpg';
+import logo from '../../../Assets/Images/y-d-logo.png';
 
 function Header(): JSX.Element {
     return (
