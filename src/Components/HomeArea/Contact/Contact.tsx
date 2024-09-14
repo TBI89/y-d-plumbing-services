@@ -9,20 +9,24 @@ function Contact(): JSX.Element {
 
     return (
         <div className="Contact">
+            <div className="iconRow">
+                <div className="iconContainer">
+                    <a href={`https://wa.me/${phoneNumber}?text=${message}`}
+                        target="_blank" rel="noreferrer">
+                        <WhatsAppIcon style={{ fontSize: '40px' }} />
+                    </a>
+                    <br />
+                    <span>שלחו הודעה</span>
+                </div>
 
-            <div className="whatsAppContainer">
-                <a href={`https://wa.me/${phoneNumber}?text=${message}`}
-                    target="_blank" rel="noreferrer">
-                    <WhatsAppIcon style={{ fontSize: '60px' }} />
-                </a>
+                <div className="iconContainer">
+                    <a href={`tel:${phoneNumber}`}>
+                        <PhoneIcon style={{ fontSize: '40px' }} />
+                    </a>
+                    <br />
+                    <span>התקשרו עכשיו</span>
+                </div>
             </div>
-
-            <div className="phoneContainer">
-                <a href={`tel:${phoneNumber}`}>
-                    <PhoneIcon style={{ fontSize: '60px' }} />
-                </a>
-            </div>
-
         </div>
     );
 }

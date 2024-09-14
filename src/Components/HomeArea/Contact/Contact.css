@@ -1,11 +1,26 @@
-.Contact>.whatsAppContainer {
-    position: fixed;
-    bottom: 2%;
-    left: 1%;
+@font-face {
+    font-family: 'ContentDetailsFont';
+    src: url('../../../Assets/Fonts/SecularOne-Regular.ttf');
 }
 
-.Contact>.phoneContainer {
+.Contact {
     position: fixed;
     bottom: 2%;
-    left: 93%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.iconRow {
+    display: flex;
+    background-color: rgba(200, 240, 200, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.iconContainer {
+    font-family: 'ContentDetailsFont';
+    text-align: center;
+    flex: 1;
 }
