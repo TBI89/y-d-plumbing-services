@@ -6,6 +6,7 @@
 .Home>h2 {
     font-family: 'service-list-font';
     font-size: 35px;
+    color: white;
 }
 
 .Home>.ServiceListContainer {
@@ -13,4 +14,5 @@
     text-align: right;
     font-family: 'service-list-font';
     font-size: 25px;
+    color: white;
 }

@@ -6,10 +6,9 @@
 .Header>h1 {
     font-family: 'header-font';
     font-size: 70px;
+    color: white;
 }
 
 .Header>img {
     width: 300px;
-    /* mix-blend-mode: screen;  
-    filter: brightness(1) contrast(50); */
 }
