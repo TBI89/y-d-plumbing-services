@@ -10,17 +10,17 @@ function Home(): JSX.Element {
             <br />
 
             <div className="ServiceListContainer">
-                <span><DoneOutlineIcon /> פתיחת סתימות בלחץ מים</span>
+                <span><DoneOutlineIcon style={{color: "green"}} /> פתיחת סתימות בלחץ מים</span>
                 <br />
-                <span><DoneOutlineIcon /> שטיפת קווים</span>
+                <span><DoneOutlineIcon style={{color: "green"}} /> שטיפת קווים</span>
                 <br />
-                <span><DoneOutlineIcon /> צילומי צנרת</span>
+                <span><DoneOutlineIcon style={{color: "green"}} /> צילומי צנרת</span>
                 <br />
-                <span><DoneOutlineIcon /> פירוק בטון ושורשים בצנרת</span>
+                <span><DoneOutlineIcon style={{color: "green"}} /> פירוק בטון ושורשים בצנרת</span>
                 <br />
-                <span><DoneOutlineIcon /> חידוש ואיטום בריכות ביוב</span>
+                <span><DoneOutlineIcon style={{color: "green"}} /> חידוש ואיטום בריכות ביוב</span>
                 <br />
-                <span><DoneOutlineIcon /> החלפת מכסי ביוב</span>
+                <span><DoneOutlineIcon style={{color: "green"}} /> החלפת מכסי ביוב</span>
             </div>
             <br />
 

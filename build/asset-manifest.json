@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.90d4aa1b.css",
-    "main.js": "/static/js/main.739ace78.js",
+    "main.css": "/static/css/main.d27d2878.css",
+    "main.js": "/static/js/main.a70c1f59.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/carousel-3.png": "/static/media/carousel-3.473d0e588cab5bf83b7e.png",
     "static/media/carousel-6.png": "/static/media/carousel-6.35d574a305da4345fdad.png",
@@ -18,12 +18,12 @@
     "static/media/page-not-found.png": "/static/media/page-not-found.56782ca118a7ce2c13c9.png",
     "static/media/SecularOne-Regular.ttf": "/static/media/SecularOne-Regular.f9a0f58cdc9d6e2de7f1.ttf",
     "index.html": "/index.html",
-    "main.90d4aa1b.css.map": "/static/css/main.90d4aa1b.css.map",
-    "main.739ace78.js.map": "/static/js/main.739ace78.js.map",
+    "main.d27d2878.css.map": "/static/css/main.d27d2878.css.map",
+    "main.a70c1f59.js.map": "/static/js/main.a70c1f59.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90d4aa1b.css",
-    "static/js/main.739ace78.js"
+    "static/css/main.d27d2878.css",
+    "static/js/main.a70c1f59.js"
   ]
 }

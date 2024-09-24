@@ -5,7 +5,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 function Contact(): JSX.Element {
 
     const phoneNumber = '+972549467444'
-    const message = 'שלום הגעתם לירון שירותי ביוב'
+    const message = 'שלום, אני מעוניין בשירותי ביובית'
 
     return (
         <div className="Contact">
@@ -13,7 +13,7 @@ function Contact(): JSX.Element {
                 <div className="iconContainer">
                     <a href={`https://wa.me/${phoneNumber}?text=${message}`}
                         target="_blank" rel="noreferrer">
-                        <WhatsAppIcon style={{ fontSize: '40px' }} />
+                        <WhatsAppIcon style={{fontSize: "50px"}} className="icon" />
                     </a>
                     <br />
                     <span>שלחו הודעה</span>
@@ -21,7 +21,7 @@ function Contact(): JSX.Element {
 
                 <div className="iconContainer">
                     <a href={`tel:${phoneNumber}`}>
-                        <PhoneIcon style={{ fontSize: '40px' }} />
+                        <PhoneIcon style={{fontSize: "50px"}} className="icon" />
                     </a>
                     <br />
                     <span>התקשרו עכשיו</span>

@@ -13,7 +13,7 @@
 
 .iconRow {
     display: flex;
-    background-color: rgba(200, 240, 200, 0.9);
+    background-color: #4CAF50;
     border-radius: 10px;
     padding: 10px;
     align-items: center;
@@ -23,4 +23,18 @@
     font-family: 'ContentDetailsFont';
     text-align: center;
     flex: 1;
+    color: white;
+    position: relative;
+}
+
+.icon {
+    position: relative;
+    top: -20px; 
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+span {
+    font-size: 18px;
 }

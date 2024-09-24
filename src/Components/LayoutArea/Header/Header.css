@@ -3,6 +3,11 @@
     src: url(../../../Assets/Fonts/RubikDistressed-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'ContentDetailsFont';
+    src: url('../../../Assets/Fonts/SecularOne-Regular.ttf');
+}
+
 .Header>h1 {
     font-family: 'header-font';
     font-size: 70px;
@@ -11,4 +16,23 @@
 
 .Header>img {
     width: 300px;
+}
+
+.CallToActionContainer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+}
+
+.CallToActionContainer>span {
+    margin: auto;
+    color: white;
+    font-family: 'ContentDetailsFont';
+}
+
+.HeaderPhoneIcon {
+    color: #25D366;
 }
