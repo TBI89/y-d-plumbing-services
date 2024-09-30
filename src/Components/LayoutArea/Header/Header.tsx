@@ -6,10 +6,10 @@ function Header(): JSX.Element {
     return (
         <div className="Header">
             <div className="CallToActionContainer">
-                <span>התקשרו עכשיו: 055-49467444</span>
                 <PhoneInTalkIcon className="HeaderPhoneIcon"/>
+                <span>התקשרו עכשיו: 054-4967444</span>
             </div>
-            <br/><br/>
+            <br /><br />
             <img src={logo} />
             <h1>ירון דוד שירותי ביוב</h1>
         </div>

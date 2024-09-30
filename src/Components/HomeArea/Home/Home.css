@@ -12,7 +12,10 @@
 .Home>.ServiceListContainer {
     display: inline-block;
     text-align: right;
+}
+
+.Home >.ServiceListContainer>span {
     font-family: 'service-list-font';
-    font-size: 25px;
     color: white;
+    font-size: x-large;
 }

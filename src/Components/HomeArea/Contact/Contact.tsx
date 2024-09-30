@@ -13,7 +13,7 @@ function Contact(): JSX.Element {
                 <div className="iconContainer">
                     <a href={`https://wa.me/${phoneNumber}?text=${message}`}
                         target="_blank" rel="noreferrer">
-                        <WhatsAppIcon style={{fontSize: "50px"}} className="icon" />
+                        <WhatsAppIcon style={{fontSize: "55px"}} className="icon" />
                     </a>
                     <br />
                     <span>שלחו הודעה</span>
@@ -21,7 +21,7 @@ function Contact(): JSX.Element {
 
                 <div className="iconContainer">
                     <a href={`tel:${phoneNumber}`}>
-                        <PhoneIcon style={{fontSize: "50px"}} className="icon" />
+                        <PhoneIcon style={{fontSize: "55px"}} className="icon" />
                     </a>
                     <br />
                     <span>התקשרו עכשיו</span>

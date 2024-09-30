@@ -16,6 +16,8 @@ function Home(): JSX.Element {
                 <br />
                 <span><DoneOutlineIcon style={{color: "green"}} /> צילומי צנרת</span>
                 <br />
+                <span><DoneOutlineIcon style={{color: "green"}} /> תיקוני צנרת ללא הרס </span>
+                <br />
                 <span><DoneOutlineIcon style={{color: "green"}} /> פירוק בטון ושורשים בצנרת</span>
                 <br />
                 <span><DoneOutlineIcon style={{color: "green"}} /> חידוש ואיטום בריכות ביוב</span>
