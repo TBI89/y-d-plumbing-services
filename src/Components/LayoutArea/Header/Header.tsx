@@ -1,17 +1,13 @@
-import "./Header.css";
-import logo from '../../../Assets/Images/y-d-logo.png';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
+import "./Header.css";
 
 function Header(): JSX.Element {
     return (
         <div className="Header">
             <div className="CallToActionContainer">
                 <PhoneInTalkIcon className="HeaderPhoneIcon"/>
-                <span>התקשרו עכשיו: 054-4967444</span>
+                <span>התקשרו עכשיו: 054-9467444</span>
             </div>
-            <br /><br />
-            <img src={logo} />
-            <h1>ירון דוד שירותי ביוב</h1>
         </div>
     );
 }

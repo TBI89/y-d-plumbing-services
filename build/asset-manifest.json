@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d27d2878.css",
-    "main.js": "/static/js/main.a70c1f59.js",
+    "main.css": "/static/css/main.a48cd5de.css",
+    "main.js": "/static/js/main.427b0913.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/carousel-3.png": "/static/media/carousel-3.473d0e588cab5bf83b7e.png",
     "static/media/carousel-6.png": "/static/media/carousel-6.35d574a305da4345fdad.png",
@@ -13,17 +13,17 @@
     "static/media/carousel-8.png": "/static/media/carousel-8.d1576570e6cc142c6031.png",
     "static/media/carousel-5.png": "/static/media/carousel-5.4e74e815abec4f2606ce.png",
     "static/media/RubikDistressed-Regular.ttf": "/static/media/RubikDistressed-Regular.904e9380e0b728a433d7.ttf",
-    "static/media/y-d-logo.png": "/static/media/y-d-logo.1aa5256444f930dc973a.png",
+    "static/media/y-d-logo.png": "/static/media/y-d-logo.ef42340411f7b5b4c2d2.png",
     "static/media/background-image.jpg": "/static/media/background-image.948b8e8f57f56c7aef48.jpg",
     "static/media/page-not-found.png": "/static/media/page-not-found.56782ca118a7ce2c13c9.png",
     "static/media/SecularOne-Regular.ttf": "/static/media/SecularOne-Regular.f9a0f58cdc9d6e2de7f1.ttf",
     "index.html": "/index.html",
-    "main.d27d2878.css.map": "/static/css/main.d27d2878.css.map",
-    "main.a70c1f59.js.map": "/static/js/main.a70c1f59.js.map",
+    "main.a48cd5de.css.map": "/static/css/main.a48cd5de.css.map",
+    "main.427b0913.js.map": "/static/js/main.427b0913.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d27d2878.css",
-    "static/js/main.a70c1f59.js"
+    "static/css/main.a48cd5de.css",
+    "static/js/main.427b0913.js"
   ]
 }

@@ -3,7 +3,18 @@
     src: url(../../../Assets/Fonts/SecularOne-Regular.ttf);
 }
 
-.Home>h2 {
+@font-face {
+    font-family: 'header-font';
+    src: url(../../../Assets/Fonts/RubikDistressed-Regular.ttf);
+}
+
+.Home {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.Home>.SubHeaderContainer>h2 {
     font-family: 'service-list-font';
     font-size: 35px;
     color: white;
@@ -14,8 +25,18 @@
     text-align: right;
 }
 
-.Home >.ServiceListContainer>span {
+.Home>.ServiceListContainer>span {
     font-family: 'service-list-font';
     color: white;
     font-size: x-large;
+}
+
+.Home>.SubHeaderContainer>h1 {
+    font-family: 'header-font';
+    font-size: 70px;
+    color: white;
+}
+
+.Home>.SubHeaderContainer>img {
+    width: 300px;
 }
