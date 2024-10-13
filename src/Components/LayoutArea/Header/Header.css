@@ -18,7 +18,7 @@
     width: 300px;
 }
 
-.CallToActionContainer {
+.Header>.CallToActionContainer {
     position: fixed;
     width: 100%;
     display: flex;
@@ -27,13 +27,13 @@
     background-color: #4CAF50;
 }
 
-.CallToActionContainer>span {
+.Header>.CallToActionContainer>span {
     margin: auto;
     color: white;
     font-family: 'ContentDetailsFont';
 }
 
-.HeaderPhoneIcon {
+.Header>.CallToActionContainer>.HeaderPhoneIcon {
     color: white;
     margin-right: 10px;
 }
